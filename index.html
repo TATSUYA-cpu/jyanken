@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんゲーム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>じゃんけんゲーム</h1>
+        <div class="score-board">
+            <div class="score">
+                <p>あなた: <span id="player-score">0</span></p>
+                <p>コンピュータ: <span id="computer-score">0</span></p>
+            </div>
+            <button id="reset-btn" class="reset-btn">スコアをリセット</button>
+        </div>
+        <div class="choices">
+            <button class="choice-btn" data-choice="rock">✊</button>
+            <button class="choice-btn" data-choice="paper">✋</button>
+            <button class="choice-btn" data-choice="scissors">✌️</button>
+        </div>
+        <div class="result">
+            <p id="result-text">じゃんけんを選んでください！</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
